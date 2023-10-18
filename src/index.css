@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin: 0;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pads {
+  display: grid;
+  margin-top: 30px;
+  gap: 5px;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+
+.drum-pad {
+  border: 1px solid black;
+  padding: 10px;
+}
